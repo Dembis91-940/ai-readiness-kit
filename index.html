@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Readiness Kit — Votre entreprise est-elle prête pour l'IA ?</title>
+<meta name="description" content="Audit de maturité IA, politique IA clé en main et accompagnement pour PME et indépendants. Sachez par où commencer, encadrez vos équipes, protégez vos données.">
+<link rel="canonical" href="https://ai-readiness-kit.fr/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="AI Readiness Kit — Votre entreprise est-elle prête pour l'IA ?">
+<meta property="og:description" content="Audit de maturité IA (97 €), politique IA clé en main (197 €) et pack complet (297 €) pour PME et indépendants. Clé en main, conforme RGPD, livré en 48-72 h.">
+<meta property="og:url" content="https://ai-readiness-kit.fr/">
+<meta property="og:site_name" content="AI Readiness Kit">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="https://ai-readiness-kit.fr/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI Readiness Kit — Votre entreprise est-elle prête pour l'IA ?">
+<meta name="twitter:description" content="Audit, politique IA clé en main et accompagnement pour PME et indépendants. Clé en main, conforme RGPD, livré en 48-72 h.">
+
+<!-- Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "AI Readiness Kit",
+  "description": "Audit de maturité IA, politique IA clé en main et accompagnement pour PME et indépendants.",
+  "url": "https://ai-readiness-kit.fr/",
+  "areaServed": "FR",
+  "priceRange": "97€ - 297€",
+  "offers": [
+    {
+      "@type": "Offer",
+      "name": "Audit de maturité IA",
+      "price": "97",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock",
+      "url": "https://ai-readiness-kit.fr/outil-audit.html"
+    },
+    {
+      "@type": "Offer",
+      "name": "Politique IA clé en main",
+      "price": "197",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock",
+      "url": "https://ai-readiness-kit.fr/#offres"
+    },
+    {
+      "@type": "Offer",
+      "name": "Pack Complet (audit + politique + 3 mois d'accompagnement)",
+      "price": "297",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock",
+      "url": "https://ai-readiness-kit.fr/#offres"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Je n'y connais rien en IA, l'audit est-il fait pour moi ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui, c'est exactement pour vous. L'audit est conçu pour les non-techniciens : 20 questions simples en français, sans jargon, et vous obtenez un score clair et un plan d'action priorisé." }
+    },
+    {
+      "@type": "Question",
+      "name": "En combien de temps je reçois ma politique IA ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Sous 48 à 72 heures ouvrées après votre commande. Vous recevez un document complet, modifiable, prêt à être validé et diffusé auprès de vos équipes." }
+    },
+    {
+      "@type": "Question",
+      "name": "La politique est-elle conforme au RGPD ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui. La politique intègre les obligations RGPD applicables aux outils d'IA (bases légales, minimisation des données, sous-traitance, droits des personnes) et vous explique les points à personnaliser." }
+    },
+    {
+      "@type": "Question",
+      "name": "Je suis indépendant ou micro-entreprise, est-ce adapté ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Absolument. L'audit et la politique sont proposés dans une version adaptée aux solos et aux petites structures : simples, légers, sans surcharge administrative." }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment se passe l'accompagnement de 3 mois ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Un point mensuel dédié à vos priorités, des échanges illimités par email, la revue de vos cas d'usage et le suivi de votre plan d'action. Vous n'êtes jamais seul face à l'IA." }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment se fait le paiement ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Par virement bancaire ou lien de paiement sécurisé après votre commande. Vous recevez une facture, et le paiement en ligne direct arrive bientôt." }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --violet:#5b21b6;
+  --violet-fonce:#4c1d95;
+  --violet-prof:#2e1065;
+  --violet-tres-clair:#f3effc;
+  --violet-clair:#ede9fe;
+  --argent:#cbd5e1;
+  --argent-clair:#e2e8f0;
+  --ivoire:#faf9f7;
+  --blanc:#ffffff;
+  --encre:#241b3a;
+  --gris:#5c5770;
+  --or:#b8935a;
+  --serif:'Fraunces', Georgia, serif;
+  --sans:'Inter', -apple-system, sans-serif;
+  --ombre-douce:0 1px 2px rgba(46,16,101,.06),0 8px 24px rgba(46,16,101,.07);
+  --ombre-forte:0 2px 4px rgba(46,16,101,.08),0 24px 56px rgba(46,16,101,.16);
+  --rayon:18px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);background:var(--ivoire);color:var(--encre);line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%}
+a{text-decoration:none;color:inherit}
+.wrap{max-width:1140px;margin:0 auto;padding:0 24px}
+section{padding:96px 0}
+
+/* ---------- Typographie ---------- */
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--violet)}
+.eyebrow::before{content:"";width:32px;height:1px;background:var(--violet)}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.15;color:var(--violet-prof)}
+h2{font-size:clamp(30px,4vw,42px);margin:14px 0 18px}
+.sec-intro{max-width:640px;margin-bottom:56px}
+.sec-intro p{color:var(--gris);font-size:17px}
+.sous-titre{font-size:15px;color:var(--gris);max-width:640px;margin-top:10px}
+
+/* ---------- Boutons ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:var(--sans);font-weight:600;font-size:15px;padding:15px 30px;border-radius:12px;cursor:pointer;transition:all .25s ease;border:1px solid transparent;line-height:1}
+.btn-violet{background:var(--violet);color:#fff;box-shadow:0 8px 24px rgba(91,33,182,.30)}
+.btn-violet:hover{background:var(--violet-fonce);transform:translateY(-2px);box-shadow:0 12px 32px rgba(91,33,182,.38)}
+.btn-contour{background:transparent;color:var(--violet-prof);border-color:var(--argent);}
+.btn-contour:hover{border-color:var(--violet);background:var(--violet-tres-clair);transform:translateY(-2px)}
+.btn-ivoire{background:var(--ivoire);color:var(--violet-prof)}
+.btn-ivoire:hover{transform:translateY(-2px);box-shadow:var(--ombre-douce)}
+.btn svg{flex-shrink:0}
+
+/* ---------- Navigation ---------- */
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(250,249,247,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid rgba(203,213,225,.5);transition:box-shadow .3s}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{display:flex;align-items:center;gap:12px;font-family:var(--serif);font-weight:700;font-size:19px;color:var(--violet-prof)}
+.logo .mono{width:38px;height:38px;border-radius:10px;background:linear-gradient(135deg,var(--violet),var(--violet-prof));color:#fff;display:flex;align-items:center;justify-content:center;font-family:var(--sans);font-weight:700;font-size:14px;letter-spacing:.02em;box-shadow:0 4px 12px rgba(91,33,182,.35)}
+.nav-links{display:flex;align-items:center;gap:32px;list-style:none}
+.nav-links a{font-size:14px;font-weight:500;color:var(--encre);transition:color .2s}
+.nav-links a:hover{color:var(--violet)}
+.nav-links .btn{padding:11px 20px;font-size:14px}
+.burger{display:none;background:none;border:none;cursor:pointer;width:40px;height:40px;position:relative}
+.burger span{display:block;width:22px;height:2px;background:var(--violet-prof);margin:5px auto;transition:.3s;border-radius:2px}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;padding:170px 0 110px;overflow:hidden;background:
+  radial-gradient(1100px 500px at 85% -10%, rgba(91,33,182,.14), transparent 60%),
+  radial-gradient(800px 420px at -10% 30%, rgba(203,213,225,.55), transparent 60%),
+  var(--ivoire)}
+.hero::after{content:"";position:absolute;inset:auto 0 0 0;height:1px;background:linear-gradient(90deg,transparent,var(--argent),transparent)}
+.hero .grille{display:grid;grid-template-columns:1.15fr .85fr;gap:64px;align-items:center}
+.hero h1{font-size:clamp(40px,5.6vw,64px);letter-spacing:-.015em;margin:22px 0 24px}
+.hero h1 em{font-style:italic;color:var(--violet);position:relative;white-space:nowrap}
+.hero h1 em::after{content:"";position:absolute;left:0;right:0;bottom:6px;height:8px;background:rgba(203,213,225,.55);z-index:-1;border-radius:4px}
+.hero .accroche{font-size:18px;color:var(--gris);max-width:520px;margin-bottom:36px}
+.hero-ctas{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:34px}
+.hero-trust{display:flex;gap:24px;flex-wrap:wrap;font-size:13px;color:var(--gris)}
+.hero-trust li{list-style:none;display:flex;align-items:center;gap:8px}
+.hero-trust svg{color:var(--violet)}
+
+/* Carte visuelle du hero */
+.hero-carte{position:relative}
+.carte-score{background:var(--blanc);border:1px solid var(--argent-clair);border-radius:var(--rayon);padding:34px 32px;box-shadow:var(--ombre-forte);position:relative;z-index:2}
+.carte-score .cs-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:22px}
+.carte-score .cs-label{font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gris)}
+.carte-score .cs-niveau{font-size:12px;font-weight:700;color:var(--violet);background:var(--violet-tres-clair);border:1px solid var(--violet-clair);padding:6px 12px;border-radius:999px}
+.anneau{position:relative;width:170px;height:170px;margin:0 auto 24px}
+.anneau svg{transform:rotate(-90deg)}
+.anneau .anneau-texte{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.anneau .score{font-family:var(--serif);font-size:46px;font-weight:700;color:var(--violet-prof);line-height:1}
+.anneau .sur{font-size:12px;color:var(--gris);margin-top:4px}
+.axes-mini{display:grid;grid-template-columns:1fr 1fr;gap:10px 18px}
+.axe-mini{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--gris)}
+.axe-mini .barre{flex:1;height:6px;background:var(--violet-tres-clair);border-radius:99px;overflow:hidden}
+.axe-mini .barre i{display:block;height:100%;background:linear-gradient(90deg,var(--violet),#8b5cf6);border-radius:99px}
+.carte-fuite{position:absolute;right:-22px;top:-26px;background:var(--violet-prof);color:#fff;border-radius:14px;padding:14px 18px;font-size:12.5px;box-shadow:var(--ombre-forte);z-index:3;max-width:220px;line-height:1.5}
+.carte-fuite b{display:block;font-family:var(--serif);font-size:16px;margin-bottom:2px}
+.carte-fuite svg{position:absolute;top:-9px;right:18px}
+.badge-float{position:absolute;left:-26px;bottom:-24px;background:var(--blanc);border:1px solid var(--argent-clair);border-radius:14px;padding:14px 18px;box-shadow:var(--ombre-forte);display:flex;align-items:center;gap:12px;z-index:3;font-size:13px}
+.badge-float .ico{width:38px;height:38px;border-radius:10px;background:var(--violet-tres-clair);color:var(--violet);display:flex;align-items:center;justify-content:center}
+.badge-float b{display:block;font-family:var(--serif);font-size:15px;color:var(--violet-prof)}
+
+/* ---------- Bandeau chiffres ---------- */
+.chiffres{border-bottom:1px solid var(--argent-clair);background:var(--blanc)}
+.chiffres .grille{display:grid;grid-template-columns:repeat(4,1fr);gap:32px;padding:44px 0}
+.chiffre{text-align:center}
+.chiffre b{display:block;font-family:var(--serif);font-size:34px;font-weight:700;color:var(--violet-prof)}
+.chiffre span{font-size:13.5px;color:var(--gris)}
+
+/* ---------- Douleurs ---------- */
+.douleurs{background:var(--ivoire)}
+.cartes-3{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.carte-douleur{background:var(--blanc);border:1px solid var(--argent-clair);border-radius:var(--rayon);padding:34px 30px;transition:transform .3s,box-shadow .3s;position:relative}
+.carte-douleur:hover{transform:translateY(-6px);box-shadow:var(--ombre-forte)}
+.carte-douleur .num{position:absolute;top:26px;right:28px;font-family:var(--serif);font-style:italic;font-size:40px;color:var(--argent-clair);line-height:1}
+.carte-douleur .ico{width:52px;height:52px;border-radius:14px;background:linear-gradient(135deg,var(--violet-tres-clair),var(--violet-clair));color:var(--violet);display:flex;align-items:center;justify-content:center;margin-bottom:20px}
+.carte-douleur h3{font-size:21px;margin-bottom:10px}
+.carte-douleur p{font-size:14.5px;color:var(--gris)}
+.carte-douleur p b{color:var(--encre);font-weight:600}
+
+/* ---------- Fonctionnement ---------- */
+.fonctionnement{background:linear-gradient(180deg,var(--violet-prof),#3b1678);color:#fff}
+.fonctionnement .eyebrow{color:#c4b5fd}
+.fonctionnement .eyebrow::before{background:#c4b5fd}
+.fonctionnement h2{color:#fff}
+.fonctionnement .sec-intro p{color:rgba(255,255,255,.72)}
+.etapes{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;counter-reset:etape}
+.etape{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:var(--rayon);padding:34px 30px;position:relative;backdrop-filter:blur(4px)}
+.etape .etape-num{display:flex;align-items:center;gap:12px;margin-bottom:18px}
+.etape .etape-num b{font-family:var(--serif);font-size:30px;font-weight:600;color:#c4b5fd}
+.etape .etape-num span{font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.6);background:rgba(255,255,255,.1);padding:4px 10px;border-radius:999px}
+.etape h3{color:#fff;font-size:21px;margin-bottom:10px}
+.etape p{font-size:14.5px;color:rgba(255,255,255,.78)}
+.etape .fleche{position:absolute;right:-22px;top:50%;transform:translateY(-50%);color:#c4b5fd;z-index:2;display:flex}
+@media(max-width:900px){.etape .fleche{display:none}}
+
+/* ---------- Offres ---------- */
+.offres{background:var(--ivoire)}
+.prix-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;align-items:stretch}
+.carte-prix{background:var(--blanc);border:1px solid var(--argent-clair);border-radius:22px;padding:38px 32px;display:flex;flex-direction:column;position:relative;transition:transform .3s,box-shadow .3s}
+.carte-prix:hover{transform:translateY(-6px);box-shadow:var(--ombre-forte)}
+.carte-prix.populaire{border:2px solid var(--violet);box-shadow:0 0 0 1px var(--violet),var(--ombre-forte);background:linear-gradient(180deg,#fff,var(--violet-tres-clair))}
+.etiquette{position:absolute;top:-15px;left:50%;transform:translateX(-50%);background:var(--violet);color:#fff;font-size:11.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:7px 18px;border-radius:999px;white-space:nowrap;box-shadow:0 6px 16px rgba(91,33,182,.4)}
+.carte-prix .nom{font-family:var(--serif);font-size:20px;font-weight:600;color:var(--violet-prof)}
+.carte-prix .sous{font-size:13.5px;color:var(--gris);margin:6px 0 20px}
+.carte-prix .prix{display:flex;align-items:baseline;gap:6px;margin-bottom:6px}
+.carte-prix .prix b{font-family:var(--serif);font-size:44px;font-weight:700;color:var(--violet-prof)}
+.carte-prix .prix span{font-size:14px;color:var(--gris)}
+.carte-prix .unitaire{font-size:12.5px;color:var(--gris);margin-bottom:22px}
+.carte-prix ul{list-style:none;margin-bottom:28px;flex:1}
+.carte-prix li{display:flex;gap:10px;font-size:14px;color:var(--encre);padding:7px 0;border-bottom:1px dashed var(--argent-clair)}
+.carte-prix li:last-child{border-bottom:none}
+.carte-prix li svg{flex-shrink:0;color:var(--violet);margin-top:3px}
+.carte-prix .btn{width:100%}
+.garantie{display:flex;align-items:center;justify-content:center;gap:12px;margin-top:44px;background:var(--blanc);border:1px solid var(--argent-clair);border-radius:14px;padding:18px 24px;max-width:720px;margin-left:auto;margin-right:auto;font-size:14px;color:var(--gris)}
+.garantie .ico{width:40px;height:40px;border-radius:50%;background:var(--violet-tres-clair);color:var(--violet);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.garantie b{color:var(--violet-prof)}
+
+/* ---------- Livrables ---------- */
+.livrables{background:var(--blanc);border-top:1px solid var(--argent-clair);border-bottom:1px solid var(--argent-clair)}
+.grille-livrables{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.item-livrable{display:flex;gap:16px;align-items:flex-start;background:var(--ivoire);border:1px solid var(--argent-clair);border-radius:16px;padding:24px}
+.item-livrable .ico{width:44px;height:44px;border-radius:12px;background:linear-gradient(135deg,var(--violet),var(--violet-fonce));color:#fff;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.item-livrable b{display:block;font-size:15px;color:var(--violet-prof);margin-bottom:4px}
+.item-livrable p{font-size:13.5px;color:var(--gris)}
+
+/* ---------- Formulaire ---------- */
+.contact{background:linear-gradient(180deg,var(--ivoire),var(--violet-tres-clair))}
+.contact .grille{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:start}
+.contact-gauche h2{margin-top:14px}
+.contact-gauche .points{list-style:none;margin-top:28px}
+.contact-gauche .points li{display:flex;gap:12px;font-size:14.5px;color:var(--gris);padding:9px 0}
+.contact-gauche .points svg{flex-shrink:0;color:var(--violet);margin-top:3px}
+.formulaire{background:var(--blanc);border:1px solid var(--argent-clair);border-radius:22px;padding:38px;box-shadow:var(--ombre-forte)}
+.formulaire h3{font-size:24px;margin-bottom:6px}
+.formulaire .fsous{font-size:14px;color:var(--gris);margin-bottom:26px}
+.champ{margin-bottom:18px}
+.champ label{display:block;font-size:13px;font-weight:600;color:var(--violet-prof);margin-bottom:7px}
+.champ input,.champ select,.champ textarea{width:100%;border:1px solid var(--argent);border-radius:10px;padding:13px 15px;font-family:var(--sans);font-size:14.5px;color:var(--encre);background:var(--blanc);transition:border-color .2s,box-shadow .2s;appearance:none}
+.champ textarea{resize:vertical;min-height:110px}
+.champ input:focus,.champ select:focus,.champ textarea:focus{outline:none;border-color:var(--violet);box-shadow:0 0 0 3px rgba(91,33,182,.12)}
+.champ select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%235b21b6' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 15px center}
+.formulaire .btn{width:100%;margin-top:6px}
+.form-msg{display:none;margin-top:16px;padding:13px 16px;border-radius:10px;font-size:14px;line-height:1.5}
+.form-msg.ok{display:block;background:#ecfdf5;border:1px solid #a7f3d0;color:#065f46}
+.form-msg.err{display:block;background:#fef2f2;border:1px solid #fecaca;color:#991b1b}
+.form-note{font-size:12px;color:var(--gris);text-align:center;margin-top:14px}
+.offre-preselect{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+.offre-preselect button{flex:1;min-width:120px;border:1px solid var(--argent);background:var(--blanc);color:var(--encre);border-radius:10px;padding:10px 8px;font-size:12.5px;font-weight:600;cursor:pointer;transition:all .2s;font-family:var(--sans)}
+.offre-preselect button.active{border-color:var(--violet);background:var(--violet-tres-clair);color:var(--violet)}
+
+/* ---------- FAQ ---------- */
+.faq{background:var(--ivoire)}
+.faq-liste{max-width:780px;margin:0 auto}
+.faq-item{background:var(--blanc);border:1px solid var(--argent-clair);border-radius:14px;margin-bottom:12px;overflow:hidden;transition:box-shadow .3s}
+.faq-item.ouvert{box-shadow:var(--ombre-douce);border-color:var(--argent)}
+.faq-q{width:100%;display:flex;justify-content:space-between;align-items:center;gap:16px;background:none;border:none;padding:20px 24px;cursor:pointer;font-family:var(--sans);font-size:15.5px;font-weight:600;color:var(--violet-prof);text-align:left}
+.faq-q .chev{transition:transform .3s;color:var(--violet);flex-shrink:0}
+.faq-item.ouvert .chev{transform:rotate(45deg)}
+.faq-r{max-height:0;overflow:hidden;transition:max-height .4s ease}
+.faq-r div{padding:0 24px 20px;font-size:14.5px;color:var(--gris)}
+
+/* ---------- CTA final ---------- */
+.cta-final{background:linear-gradient(135deg,var(--violet-prof),var(--violet));color:#fff;text-align:center}
+.cta-final h2{color:#fff;margin-bottom:16px}
+.cta-final p{color:rgba(255,255,255,.8);max-width:560px;margin:0 auto 32px;font-size:16.5px}
+.cta-final .btn-ivoire{margin-right:12px}
+
+/* ---------- Footer ---------- */
+footer{background:var(--violet-prof);color:rgba(255,255,255,.7);padding:64px 0 30px;font-size:13.5px}
+footer .grille{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:48px;padding-bottom:40px;border-bottom:1px solid rgba(255,255,255,.12);margin-bottom:26px}
+footer h4{color:#fff;font-family:var(--serif);font-size:16px;margin-bottom:14px}
+footer a{display:block;padding:4px 0;transition:color .2s}
+footer a:hover{color:#c4b5fd}
+footer .bas{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:12.5px;color:rgba(255,255,255,.45)}
+footer .logo{color:#fff;margin-bottom:14px}
+
+/* ---------- Animations reveal ---------- */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .8s cubic-bezier(.16,1,.3,1),transform .8s cubic-bezier(.16,1,.3,1)}
+.reveal.visible{opacity:1;transform:none}
+.d1{transition-delay:.08s}.d2{transition-delay:.16s}.d3{transition-delay:.24s}.d4{transition-delay:.32s}
+
+/* ---------- Responsive ---------- */
+@media(max-width:960px){
+  .hero .grille{grid-template-columns:1fr;gap:56px}
+  .cartes-3,.prix-grid,.grille-livrables,.etapes{grid-template-columns:1fr}
+  .chiffres .grille{grid-template-columns:1fr 1fr;gap:24px}
+  .contact .grille{grid-template-columns:1fr;gap:40px}
+  footer .grille{grid-template-columns:1fr;gap:32px}
+  .nav-links{position:fixed;top:72px;left:0;right:0;background:var(--blanc);flex-direction:column;align-items:flex-start;padding:24px;gap:18px;box-shadow:var(--ombre-forte);transform:translateY(-120%);transition:transform .35s ease;border-bottom:1px solid var(--argent-clair)}
+  .nav-links.ouvert{transform:translateY(0)}
+  .burger{display:block}
+  .hero{padding:130px 0 80px}
+  .carte-fuite{right:8px;top:-20px}
+  .badge-float{left:8px;bottom:-20px}
+  section{padding:72px 0}
+}
+</style>
+</head>
+<body>
+
+<!-- ================= NAVIGATION ================= -->
+<nav id="nav">
+  <div class="wrap">
+    <a href="#" class="logo" aria-label="AI Readiness Kit — accueil">
+      <span class="mono">AI</span> AI Readiness Kit
+    </a>
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#douleurs">Pourquoi</a></li>
+      <li><a href="#fonctionnement">Comment ça marche</a></li>
+      <li><a href="#offres">Offres</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="outil-audit.html" class="btn btn-contour">Audit gratuit</a></li>
+      <li><a href="#contact" class="btn btn-violet">Commander</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<header class="hero">
+  <div class="wrap">
+    <div class="grille">
+      <div class="reveal">
+        <span class="eyebrow">Cabinet de conseil · PME &amp; indépendants</span>
+        <h1>Votre entreprise est-elle <em>prête</em> pour l'IA&nbsp;?</h1>
+        <p class="accroche">Découvrez votre niveau de maturité en 10 minutes, encadrez l'usage de l'IA dans vos équipes et adoptez sereinement — sans risque RGPD, sans fuite de données, sans improvisation.</p>
+        <div class="hero-ctas">
+          <a href="outil-audit.html" class="btn btn-violet">
+            Faire l'audit gratuit
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#offres" class="btn btn-contour">Découvrir les offres</a>
+        </div>
+        <ul class="hero-trust">
+          <li><svg width="15" height="15" viewBox="0 0 16 16" fill="none"><path d="M2 8.5L6 12.5L14 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Résultat immédiat</li>
+          <li><svg width="15" height="15" viewBox="0 0 16 16" fill="none"><path d="M2 8.5L6 12.5L14 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Sans engagement</li>
+          <li><svg width="15" height="15" viewBox="0 0 16 16" fill="none"><path d="M2 8.5L6 12.5L14 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Garantie 14 jours</li>
+        </ul>
+      </div>
+
+      <div class="hero-carte reveal d2">
+        <div class="carte-score">
+          <div class="cs-top">
+            <span class="cs-label">Maturité IA · exemple</span>
+            <span class="cs-niveau">Stratège</span>
+          </div>
+          <div class="anneau">
+            <svg width="170" height="170" viewBox="0 0 170 170">
+              <circle cx="85" cy="85" r="72" stroke="#ede9fe" stroke-width="12" fill="none"/>
+              <circle cx="85" cy="85" r="72" stroke="#5b21b6" stroke-width="12" fill="none" stroke-linecap="round" stroke-dasharray="452.4" stroke-dashoffset="101.8" transform="rotate(-90 85 85)"/>
+            </svg>
+            <div class="anneau-texte">
+              <span class="score">78</span>
+              <span class="sur">sur 100</span>
+            </div>
+          </div>
+          <div class="axes-mini">
+            <div class="axe-mini"><span>Données</span><span class="barre"><i style="width:75%"></i></span></div>
+            <div class="axe-mini"><span>Équipes</span><span class="barre"><i style="width:58%"></i></span></div>
+            <div class="axe-mini"><span>Outils</span><span class="barre"><i style="width:83%"></i></span></div>
+            <div class="axe-mini"><span>Gouvernance</span><span class="barre"><i style="width:42%"></i></span></div>
+            <div class="axe-mini"><span>Sécurité</span><span class="barre"><i style="width:66%"></i></span></div>
+            <div class="axe-mini"><span>RGPD</span><span class="barre"><i style="width:52%"></i></span></div>
+          </div>
+        </div>
+        <div class="carte-fuite">
+          <svg width="22" height="12" viewBox="0 0 22 12" fill="none"><path d="M0 12L11 0L22 12H0Z" fill="#2e1065"/></svg>
+          <b>Votre score, en vrai.</b>
+          20 questions · 5 axes · plan d'action immédiat
+        </div>
+        <div class="badge-float">
+          <span class="ico">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 1.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8L1.5 7.7l5.9-.9L10 1.5z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          </span>
+          <div><b>Plan d'action 30/60/90 jours</b>priorisé selon votre score</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ================= CHIFFRES ================= -->
+<div class="chiffres">
+  <div class="wrap grille reveal">
+    <div class="chiffre"><b>20</b><span>questions d'audit<br>sur 5 axes</span></div>
+    <div class="chiffre"><b>48-72 h</b><span>de livraison de votre<br>politique IA</span></div>
+    <div class="chiffre"><b>20</b><span>sections de politique<br>prêtes à signer</span></div>
+    <div class="chiffre"><b>14 j</b><span>de garantie<br>satisfait ou remboursé</span></div>
+  </div>
+</div>
+
+<!-- ================= DOULEURS ================= -->
+<section class="douleurs" id="douleurs">
+  <div class="wrap">
+    <div class="sec-intro reveal">
+      <span class="eyebrow">Le constat</span>
+      <h2>L'IA s'invite dans votre entreprise. Avec ou sans vous.</h2>
+      <p>Trois situations que nous rencontrons chaque semaine auprès des PME et des indépendants. Si l'une d'elles vous parle, ce kit est fait pour vous.</p>
+    </div>
+    <div class="cartes-3">
+      <div class="carte-douleur reveal">
+        <span class="num">01</span>
+        <div class="ico">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M9 18h6M10 21h4M12 3a6 6 0 00-4 10.5c.7.7 1 1.5 1 2.5h6c0-1 .3-1.8 1-2.5A6 6 0 0012 3z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        </div>
+        <h3>« Par où commencer ? »</h3>
+        <p>Vous voulez adopter l'IA, mais entre les promesses et la réalité, <b>aucune étape claire ne se dessine</b>. On attend, on observe, on repousse — et l'écart avec la concurrence se creuse.</p>
+      </div>
+      <div class="carte-douleur reveal d1">
+        <span class="num">02</span>
+        <div class="ico">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zM23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Des équipes qui utilisent l'IA sans cadre</h3>
+        <p>ChatGPT, Copilot, Midjourney : vos collaborateurs les testent <b>sur vos heures de travail, sans consigne ni validation</b>. Chacun improvise, personne ne maîtrise ce qui entre — et ce qui sort.</p>
+      </div>
+      <div class="carte-douleur reveal d2">
+        <span class="num">03</span>
+        <div class="ico">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10zM9 12l2 2 4-4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Des données qui fuient</h3>
+        <p>Un dossier client collé dans un outil public, un devis confidentiel soumis à une IA : <b>une seule maladresse</b> peut fragiliser votre confidentialité, votre image et votre conformité RGPD.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FONCTIONNEMENT ================= -->
+<section class="fonctionnement" id="fonctionnement">
+  <div class="wrap">
+    <div class="sec-intro reveal">
+      <span class="eyebrow">Comment ça marche</span>
+      <h2>Un chemin clair en trois étapes</h2>
+      <p>De l'état des lieux à l'adoption encadrée, vous savez toujours où vous en êtes et quelle est la prochaine action.</p>
+    </div>
+    <div class="etapes">
+      <div class="etape reveal">
+        <span class="fleche"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <div class="etape-num"><b>01</b><span>Jour 1 · 10 minutes</span></div>
+        <h3>Audit de maturité</h3>
+        <p>Vous répondez à 20 questions en ligne sur vos données, vos équipes, vos outils, votre gouvernance et votre sécurité. Vous obtenez instantanément un score sur 100, un niveau (Novice → Leader) et un plan d'action priorisé.</p>
+      </div>
+      <div class="etape reveal d1">
+        <span class="fleche"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <div class="etape-num"><b>02</b><span>Jours 2-3 · Clé en main</span></div>
+        <h3>Politique IA sur mesure</h3>
+        <p>Nous rédigeons votre politique IA complète : outils autorisés, données interdites, RGPD, cyber, sanctions, suivi. Vous recevez un document prêt à signer, à personnaliser et à diffuser à vos équipes.</p>
+      </div>
+      <div class="etape reveal d2">
+        <div class="etape-num"><b>03</b><span>3 mois · Accompagnement</span></div>
+        <h3>Déploiement encadré</h3>
+        <p>Sensibilisation des équipes, choix des outils adaptés, points mensuels et suivi du plan d'action. L'IA entre dans votre quotidien en confiance, sans laisser personne au bord du chemin.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= OFFRES ================= -->
+<section class="offres" id="offres">
+  <div class="wrap">
+    <div class="sec-intro reveal">
+      <span class="eyebrow">Les offres</span>
+      <h2>Choisissez votre point d'entrée</h2>
+      <p>Trois formules sans abonnement caché. Commencez par l'audit, ou allez droit au but avec la politique clé en main.</p>
+    </div>
+    <div class="prix-grid">
+      <!-- Offre 1 -->
+      <div class="carte-prix reveal">
+        <div class="nom">Audit de maturité IA</div>
+        <p class="sous">Le diagnostic pour savoir où vous en êtes.</p>
+        <div class="prix"><b>97 €</b><span>TTC</span></div>
+        <p class="unitaire">Paiement unique · Livraison immédiate</p>
+        <ul>
+          <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 8.5L6 12.5L14 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>20 questions sur 5 axes (données, équipes, outils, gouvernance, sécurité)</li>
+          <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 8.5L6 12.5L14 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Score global sur 100 et niveau (Novice → Leader)</li>
+          <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 8.5L6 12.5L14 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Analyse détaillée par axe</li>
+          <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 8.5L6 12.5L14 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Plan d'action priorisé 30/60/90 jours</li>
+          <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 8.5L6 12.5L14 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Rapport PDF exportable et reprise en ligne</li>
+        </ul>
+        <a href="outil-audit.html" class="btn btn-contour">Commencer l'audit</a>
+      </div>
+      <!-- Offre 2 -->
+      <div class="carte-prix populaire reveal d1">
+        <span class="etiquette">★ Le plus choisi</span>
+        <div class="nom">Politique IA clé en main</div>
+        <p class="sous">Le cadre pour utiliser l'IA en toute sécurité.</p>
+        <div class="prix"><b>197 €</b><span>TTC</span></div>
+        <p class="unitaire">Paiement unique · Livrée en 48-72 h</p>
+        <ul>
+          <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 8.5L6 12.5L14 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Politique complète (≈20 sections) adaptée à votre entreprise</li>
+          <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 8.5L6 12.5L14 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Outils autorisés, données interdites, RGPD, confidentialité, cyber</li>
+          <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 8.5L6 12.5L14 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Support de sensibilisation pour l'équipe</li>
+          <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 8.5L6 12.5L14 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Modèle d'accusé de réception signé par chaque collaborateur</li>
+          <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 8.5L6 12.5L14 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Mise à jour RGPD incluse pendant 6 mois</li>
+        </ul>
+        <a href="#contact" class="btn btn-violet" data-offre="Politique IA clé en main (197 €)">Commander ma politique</a>
+      </div>
+      <!-- Offre 3 -->
+      <div class="carte-prix reveal d2">
+        <div class="nom">Pack Complet</div>
+        <p class="sous">L'adoption encadrée de bout en bout.</p>
+        <div class="prix"><b>297 €</b><span>TTC</span></div>
+        <p class="unitaire">Paiement unique · Livraison sous 72 h</p>
+        <ul>
+          <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 8.5L6 12.5L14 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>L'audit de maturité complet (score + plan d'action)</li>
+          <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 8.5L6 12.5L14 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>La politique IA clé en main sur mesure</li>
+          <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 8.5L6 12.5L14 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>3 mois d'accompagnement : 1 point mensuel + échanges illimités</li>
+          <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 8.5L6 12.5L14 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Revue de vos cas d'usage et choix des outils prioritaires</li>
+          <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 8.5L6 12.5L14 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Tableau de bord de suivi de votre plan d'action</li>
+        </ul>
+        <a href="#contact" class="btn btn-violet" data-offre="Pack Complet (297 €)">Choisir le pack complet</a>
+      </div>
+    </div>
+    <div class="garantie reveal">
+      <span class="ico">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 1.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8L1.5 7.7l5.9-.9L10 1.5z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+      </span>
+      <div><b>Garantie satisfait ou remboursé 14 jours.</b> Si la politique livrée ne vous convient pas, nous l'ajustons ou nous vous remboursons. Sans discussion.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LIVRABLES ================= -->
+<section class="livrables" id="livrables">
+  <div class="wrap">
+    <div class="sec-intro reveal">
+      <span class="eyebrow">Ce que vous repartez avec</span>
+      <h2>Des livrables concrets, pas des promesses</h2>
+      <p>Tout ce que vous recevez est utilisable immédiatement, modifiable et pensé pour votre taille d'entreprise.</p>
+    </div>
+    <div class="grille-livrables">
+      <div class="item-livrable reveal">
+        <span class="ico"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 1.5a8.5 8.5 0 100 17 8.5 8.5 0 000-17zm0 3.4l1.8 3.6 4 .6-2.9 2.8.7 4-3.6-1.9-3.6 1.9.7-4L4.2 9.1l4-.6L10 4.9z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></span>
+        <div><b>Un score clair sur 5 axes</b><p>Données, équipes, outils, gouvernance, sécurité : vous savez exactement où sont vos forces et vos faiblesses.</p></div>
+      </div>
+      <div class="item-livrable reveal d1">
+        <span class="ico"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M3 17V7m0 0h14M3 7l2-3h8l2 3m-7 10h4M10 7v10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <div><b>Un plan d'action 30/60/90 jours</b><p>Des priorités hiérarchisées, réalistes et chiffrables, directement issues de vos réponses.</p></div>
+      </div>
+      <div class="item-livrable reveal d2">
+        <span class="ico"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 3h10a1 1 0 011 1v13l-3-2-3 2-3-2-3 2V4a1 1 0 011-1zm3 5h4M8 11h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <div><b>Une politique IA prête à signer</b><p>Un document professionnel, complet et personnalisable, validé par vos équipes dès la première semaine.</p></div>
+      </div>
+      <div class="item-livrable reveal">
+        <span class="ico"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M17 11a6 6 0 01-11.5 1.5A5 5 0 116 3.5 6 6 0 0117 11z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span>
+        <div><b>Une équipe sensibilisée</b><p>Vos collaborateurs comprennent ce qu'ils peuvent faire, ce qu'ils doivent éviter, et pourquoi.</p></div>
+      </div>
+      <div class="item-livrable reveal d1">
+        <span class="ico"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M16 3h-2V1h-2v2H8V1H6v2H4a2 2 0 00-2 2v12h16V5a2 2 0 00-2-2zm-4 10H8v-1.5h4V13zm0-3H8V8.5h4V10z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></span>
+        <div><b>Des outils choisis en connaissance de cause</b><p>Quels outils d'IA utiliser, lesquels éviter, et comment vérifier leur conformité en 5 minutes.</p></div>
+      </div>
+      <div class="item-livrable reveal d2">
+        <span class="ico"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M8 15l-5 3 1.5-5L2 9.5l5-.7L9.5 4l2.5 4.8 5 .7-2.5 3.5 1.5 5-5-3z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></span>
+        <div><b>3 mois d'accompagnement réel</b><p>Un interlocuteur dédié, des points réguliers et des réponses à vos questions au fil de l'eau.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT / COMMANDE ================= -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="grille">
+      <div class="contact-gauche reveal">
+        <span class="eyebrow">Passer à l'action</span>
+        <h2>Parlons de votre entreprise</h2>
+        <p class="sous-titre">Décrivez votre besoin : nous vous répondons sous 24 h ouvrées avec une proposition claire, sans engagement.</p>
+        <ul class="points">
+          <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M2 9.5L6.5 14L16 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Réponse sous 24 h ouvrées, par email ou téléphone</li>
+          <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M2 9.5L6.5 14L16 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Devis gratuit et sans engagement</li>
+          <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M2 9.5L6.5 14L16 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Facture fournie · paiement par virement ou lien sécurisé</li>
+          <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M2 9.5L6.5 14L16 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Vos données restent confidentielles (nous aussi, on applique une politique IA 😉)</li>
+        </ul>
+      </div>
+      <div class="formulaire reveal d1">
+        <h3>Demandez votre offre</h3>
+        <p class="fsous">Remplissez ce formulaire : nous vous recontactons avec la solution adaptée.</p>
+        <div class="offre-preselect" id="offre-preselect" role="group" aria-label="Choisir une offre">
+          <button type="button" data-val="Audit de maturité IA (97 €)">Audit · 97 €</button>
+          <button type="button" data-val="Politique IA clé en main (197 €)" class="active">Politique · 197 €</button>
+          <button type="button" data-val="Pack Complet (297 €)">Pack · 297 €</button>
+        </div>
+        <form id="form-contact" novalidate>
+          <div class="champ">
+            <label for="f-nom">Votre nom et prénom *</label>
+            <input type="text" id="f-nom" name="name" placeholder="Ex. : Marie Dupont" required>
+          </div>
+          <div class="champ">
+            <label for="f-email">Votre email professionnel *</label>
+            <input type="email" id="f-email" name="email" placeholder="Ex. : marie@entreprise.fr" required>
+          </div>
+          <div class="champ">
+            <label for="f-offre">Offre souhaitée *</label>
+            <select id="f-offre" name="offre">
+              <option value="Audit de maturité IA (97 €)">Audit de maturité IA — 97 €</option>
+              <option value="Politique IA clé en main (197 €)" selected>Politique IA clé en main — 197 €</option>
+              <option value="Pack Complet (297 €)">Pack Complet (audit + politique + 3 mois) — 297 €</option>
+              <option value="Autre demande">Autre demande / Je ne sais pas encore</option>
+            </select>
+          </div>
+          <div class="champ">
+            <label for="f-msg">Votre message</label>
+            <textarea id="f-msg" name="question" placeholder="Dites-nous où vous en êtes : taille de l'équipe, outils déjà utilisés, questions particulières…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-violet" id="btn-envoyer">
+            Envoyer ma demande
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="form-msg" id="form-msg" role="status" aria-live="polite"></div>
+          <p class="form-note">🔒 Vos informations ne sont utilisées que pour vous répondre. Jamais transmises, jamais revendues.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section class="faq" id="faq">
+  <div class="wrap">
+    <div class="sec-intro reveal">
+      <span class="eyebrow">FAQ</span>
+      <h2>Vos questions, nos réponses</h2>
+      <p>Et si votre question n'est pas là, le formulaire ci-dessus est ouvert 24 h/24.</p>
+    </div>
+    <div class="faq-liste reveal">
+      <div class="faq-item">
+        <button class="faq-q">Je n'y connais rien en IA, l'audit est-il fait pour moi ?<span class="chev"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M9 3v12M3 9h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></button>
+        <div class="faq-r"><div>Oui, c'est exactement pour vous. L'audit est conçu pour les non-techniciens : 20 questions simples, en français, sans jargon. Vous obtenez un score clair, un niveau de maturité et un plan d'action priorisé que vous comprenez dès la première lecture.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">En combien de temps je reçois ma politique IA ?<span class="chev"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M9 3v12M3 9h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></button>
+        <div class="faq-r"><div>Sous 48 à 72 heures ouvrées après votre commande. Vous recevez un document complet, modifiable, prêt à être validé et diffusé auprès de vos équipes. Si vous avez besoin d'ajustements, ils sont inclus.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">La politique est-elle conforme au RGPD ?<span class="chev"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M9 3v12M3 9h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></button>
+        <div class="faq-r"><div>Oui. La politique intègre les obligations RGPD applicables aux outils d'IA : base légale, minimisation des données, sous-traitance, droits des personnes concernées. Chaque point est expliqué et les endroits à personnaliser sont signalés clairement.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Je suis indépendant ou micro-entreprise, est-ce adapté ?<span class="chev"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M9 3v12M3 9h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></button>
+        <div class="faq-r"><div>Absolument. L'audit et la politique existent en version adaptée aux solos et aux petites structures : simples, légers, sans surcharge administrative. Un indépendant qui utilise l'IA pour ses devis, ses contenus ou sa compta a tout autant besoin d'un cadre.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Comment se passe l'accompagnement de 3 mois ?<span class="chev"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M9 3v12M3 9h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></button>
+        <div class="faq-r"><div>Un point mensuel dédié à vos priorités (visio ou téléphone), des échanges illimités par email, la revue de vos cas d'usage, le choix des outils et le suivi de votre plan d'action. Vous n'êtes jamais seul face à l'IA.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Puis-je adapter la politique à mon secteur d'activité ?<span class="chev"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M9 3v12M3 9h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></button>
+        <div class="faq-r"><div>Oui, c'est prévu. Avant la rédaction, vous nous précisez votre secteur, votre taille et vos contraintes (santé, juridique, finance, etc.). La politique est ensuite livrée en format modifiable pour que vous la fassiez vivre.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Comment se fait le paiement ?<span class="chev"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M9 3v12M3 9h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></button>
+        <div class="faq-r"><div>Par virement bancaire ou lien de paiement sécurisé après votre commande. Vous recevez une facture conforme. Le paiement en ligne direct sur le site arrive bientôt.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA FINAL ================= -->
+<section class="cta-final">
+  <div class="wrap reveal">
+    <span class="eyebrow" style="color:#c4b5fd">Prêt·e ?</span>
+    <h2>L'IA ne vous attendra pas éternellement.</h2>
+    <p>Commencez par l'audit gratuit : 10 minutes, un score, un plan d'action. Ensuite seulement, vous décidez.</p>
+    <div>
+      <a href="outil-audit.html" class="btn btn-ivoire">Faire l'audit gratuit</a>
+      <a href="#contact" class="btn btn-contour" style="border-color:rgba(255,255,255,.4);color:#fff">Parlons-en</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <div class="grille">
+      <div>
+        <a href="#" class="logo"><span class="mono">AI</span> AI Readiness Kit</a>
+        <p>Conseil en adoption de l'IA pour PME et indépendants. Audit de maturité, politique IA clé en main et accompagnement sur mesure — en français, sans jargon, sans engagement caché.</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <a href="#douleurs">Pourquoi ce kit</a>
+        <a href="#fonctionnement">Comment ça marche</a>
+        <a href="#offres">Offres</a>
+        <a href="#livrables">Livrables</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <a href="outil-audit.html">Faire l'audit gratuit</a>
+        <a href="#contact">Demander une offre</a>
+        <a href="mailto:contact@ai-readiness-kit.fr">contact@ai-readiness-kit.fr</a>
+        <a href="#contact">Réponse sous 24 h ouvrées</a>
+      </div>
+    </div>
+    <div class="bas">
+      <span>© 2026 AI Readiness Kit · Agentia — Conseil IA · SIRET Contact via formulaire · Paris</span>
+      <span>Mentions légales · Politique de confidentialité — à personnaliser avant mise en ligne</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= CHATBOT ================= -->
+<script src="chatbot-config.js"></script>
+<script src="chatbot.js"></script>
+
+<script>
+/* ============ Navigation mobile ============ */
+var burger = document.getElementById('burger');
+var links = document.getElementById('nav-links');
+burger.addEventListener('click', function () {
+  var ouvert = links.classList.toggle('ouvert');
+  burger.setAttribute('aria-expanded', ouvert);
+  burger.querySelectorAll('span').forEach(function (s, i) {
+    s.style.transform = ouvert ? (i === 1 ? 'scale(0)' : 'rotate(' + (i === 0 ? '45deg' : '-45deg') + ') translateY(' + (i === 0 ? '2px' : '-2px') + ')') : '';
+  });
+});
+links.querySelectorAll('a').forEach(function (a) {
+  a.addEventListener('click', function () { links.classList.remove('ouvert'); burger.setAttribute('aria-expanded', 'false'); });
+});
+
+/* ============ Nav ombre au scroll ============ */
+window.addEventListener('scroll', function () {
+  document.getElementById('nav').style.boxShadow = window.scrollY > 8 ? '0 4px 24px rgba(46,16,101,.08)' : 'none';
+});
+
+/* ============ Animations reveal ============ */
+(function () {
+  var els = document.querySelectorAll('.reveal');
+  if (!('IntersectionObserver' in window)) { els.forEach(function (e) { e.classList.add('visible'); }); return; }
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('visible'); io.unobserve(en.target); } });
+  }, { threshold: 0.12 });
+  els.forEach(function (e) { io.observe(e); });
+})();
+
+/* ============ FAQ accordéon ============ */
+document.querySelectorAll('.faq-item').forEach(function (item) {
+  var btn = item.querySelector('.faq-q');
+  var rep = item.querySelector('.faq-r');
+  btn.addEventListener('click', function () {
+    var estOuvert = item.classList.contains('ouvert');
+    document.querySelectorAll('.faq-item.ouvert').forEach(function (o) {
+      o.classList.remove('ouvert');
+      o.querySelector('.faq-r').style.maxHeight = '0px';
+    });
+    if (!estOuvert) {
+      item.classList.add('ouvert');
+      rep.style.maxHeight = rep.scrollHeight + 'px';
+    }
+  });
+});
+
+/* ============ Pré-sélection offre (boutons) ============ */
+var btnsOffre = document.querySelectorAll('.offre-preselect button');
+var selectOffre = document.getElementById('f-offre');
+btnsOffre.forEach(function (b) {
+  b.addEventListener('click', function () {
+    btnsOffre.forEach(function (x) { x.classList.remove('active'); });
+    b.classList.add('active');
+    selectOffre.value = b.dataset.val;
+  });
+});
+selectOffre.addEventListener('change', function () {
+  btnsOffre.forEach(function (x) { x.classList.toggle('active', x.dataset.val === selectOffre.value); });
+});
+/* Boutons « Commander » des offres → pré-sélection + scroll */
+document.querySelectorAll('[data-offre]').forEach(function (a) {
+  a.addEventListener('click', function () {
+    var val = a.dataset.offre;
+    selectOffre.value = val;
+    btnsOffre.forEach(function (x) { x.classList.toggle('active', x.dataset.val === val); });
+  });
+});
+
+/* ============ COMMANDE — EmailJS (envoi réel) ============ */
+(function () {
+  var s = document.createElement('script');
+  s.src = 'https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js';
+  s.onload = function () { try { emailjs.init('8Pui4ZEqxW2jRVF7h'); } catch (e) {} };
+  document.head.appendChild(s);
+})();
+
+document.getElementById('form-contact').addEventListener('submit', function (e) {
+  e.preventDefault();
+  var msg = document.getElementById('form-msg');
+  var btn = document.getElementById('btn-envoyer');
+  var nom = document.getElementById('f-nom').value.trim();
+  var email = document.getElementById('f-email').value.trim();
+  var offre = document.getElementById('f-offre').value;
+  var texte = document.getElementById('f-msg').value.trim();
+
+  msg.className = 'form-msg';
+  if (!nom || !email) {
+    msg.className = 'form-msg err';
+    msg.textContent = 'Merci de remplir au moins votre nom et votre email.';
+    return;
+  }
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) {
+    msg.className = 'form-msg err';
+    msg.textContent = 'Cet email semble invalide. Vérifiez-le et réessayez.';
+    return;
+  }
+  if (typeof emailjs === 'undefined' || !emailjs.send) {
+    msg.className = 'form-msg err';
+    msg.textContent = 'Le service d\'envoi n\'est pas encore chargé. Patientez une seconde et réessayez.';
+    return;
+  }
+
+  var question = 'Offre souhaitée : ' + offre + (texte ? ' | Message : ' + texte : '');
+  var ancien = btn.innerHTML;
+  btn.disabled = true;
+  btn.innerHTML = 'Envoi en cours…';
+
+  emailjs.send('service_cy1ytdb', 'template_xpo58cv', {
+    site: 'AI Readiness Kit',
+    name: nom,
+    email: email,
+    question: question
+  }).then(function () {
+    msg.className = 'form-msg ok';
+    msg.textContent = 'Merci ' + nom.split(' ')[0] + ' ! Votre demande est bien envoyée. Nous vous répondons sous 24 h ouvrées. ✨';
+    document.getElementById('form-contact').reset();
+    btnsOffre.forEach(function (x) { x.classList.toggle('active', x.dataset.val === 'Politique IA clé en main (197 €)'); });
+  }).catch(function (err) {
+    console.error('EmailJS:', err);
+    msg.className = 'form-msg err';
+    msg.textContent = 'Une erreur est survenue lors de l\'envoi. Réessayez dans un instant, ou écrivez-nous directement à contact@ai-readiness-kit.fr.';
+  }).finally(function () {
+    btn.disabled = false;
+    btn.innerHTML = ancien;
+  });
+});
+</script>
+</body>
+</html>
