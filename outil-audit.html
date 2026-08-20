@@ -213,6 +213,7 @@ h1{font-family:var(--serif);font-weight:600;font-size:clamp(30px,4.5vw,42px);lin
 .rapport .rp-plan li::before{content:"→ ";color:var(--violet);font-weight:700}
 .rapport .rp-pied{margin-top:28px;padding-top:12px;border-top:1px solid #ddd6f2;font-size:10.5px;color:#8a84a8}
 </style>
+<meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
 
@@ -816,7 +817,7 @@ function construireRapport() {
         '<div class="rp-logo"><span>AI</span> Readiness Kit</div>' +
         '<div class="rp-meta">Rapport généré le ' + date + '<br>Audit de maturité IA — version gratuite</div>' +
       '</div>' +
-      '<h1>Rapport de maturité IA</h1>' +
+      '<h2>Rapport de maturité IA</h2>' +
       '<div class="rp-sous">' + (entreprise ? 'Entreprise : <b>' + entreprise + '</b> · ' : '') + '20 questions · 5 axes · AI Readiness Kit</div>' +
       '<div class="rp-score-bloc">' +
         '<div class="g">' + score + '/100</div>' +
